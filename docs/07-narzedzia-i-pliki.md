@@ -19,6 +19,18 @@ kompilacji — nie należy używać go na innym urządzeniu.
 Do publicznego repozytorium dodajemy instrukcję i odnośnik do oryginalnego
 źródła Magisk, a nie cudzy spatchowany obraz bez metadanych.
 
+Oficjalne źródło projektu Magisk:
+
+<https://github.com/topjohnwu/Magisk>
+
+## Źródła Tanuki i komponentów
+
+- Kaeru: <https://github.com/R0rt1z2/kaeru>
+- Penumbra: <https://github.com/shomykohai/penumbra>
+
+Archiwum użyte w tym wydaniu jest kopią pakietu testowanego na `lamul`.
+Przed użyciem porównaj SHA-256 z manifestem wydania.
+
 ## Sumy plików
 
 Przed każdym wydaniem oblicz sumy SHA-256:

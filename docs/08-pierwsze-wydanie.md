@@ -8,6 +8,10 @@ Wydanie zawiera pliki użyte podczas testów na Motorola Moto G05 XT2523-3 / `la
 - `Magisk-v30.7.apk` — aplikacja Magisk.
 - `magisk_patched-30700_GdPnV.img` — obraz spatchowany Magiskiem; tylko dla dokładnie zgodnego urządzenia i firmware.
 
+Pliki do pobrania: [pierwsze wydanie narzędzi](https://github.com/MRX2814/moto-g05-firmware-tools/releases/tag/moto-g05-vvtas35.51-153-3-tools).
+
+Oficjalne źródło Magisk: <https://github.com/topjohnwu/Magisk>.
+
 ## SHA-256
 
 ```text
