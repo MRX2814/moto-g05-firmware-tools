@@ -34,6 +34,7 @@ Pakiet został pobrany oficjalnym narzędziem Motoroli. Przed publikacją trzeba
 - [Root i Magisk](docs/05-root-magisk.md)
 - [Ratowanie telefonu](docs/06-ratowanie-telefonu.md)
 - [Narzędzia i pliki](docs/07-narzedzia-i-pliki.md)
+- [Pierwsze wydanie narzędzi](docs/08-pierwsze-wydanie.md)
 - [FAQ](docs/faq.md)
 - [Pomoc i zgłaszanie problemów](SUPPORT.md)
 
