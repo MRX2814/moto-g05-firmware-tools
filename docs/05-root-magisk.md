@@ -1,8 +1,9 @@
 # Root i Magisk — Moto G05 XT2523-3 / lamul
 
-Instrukcja opiera się na przetestowanym urządzeniu z Androidem 15, kompilacją
-`VVTAS35.51-153-3` i Magisk 30.7. Nie traktuj jej jako uniwersalnej dla każdego
-wariantu Moto G05.
+Instrukcja obejmuje root na fabrycznym Androidzie 15 oraz LineageOS 23.2 /
+Androidzie 16. Pełna, przetestowana instalacja LineageOS znajduje się w
+[osobnym przewodniku](09-lineageos-23-2.md). Nie traktuj jej jako uniwersalnej
+dla każdego wariantu Moto G05.
 
 ## Zasady bezpieczeństwa
 
@@ -24,9 +25,10 @@ adb shell getprop ro.boot.slot_suffix
 adb shell getprop ro.boot.flash.locked
 ```
 
-Oczekiwany test bazowy z naszej procedury to model Moto G05/`lamul`, build
-`VVTAS35.51-153-3` i aktywny slot `a`. Jeżeli build lub model się nie zgadza,
-przerwij.
+W teście stockowym model to Moto G05/`lamul`, build
+`VVTAS35.51-153-3`, początkowy slot `a`. Po instalacji LineageOS aktywny był
+slot `b`. Slotu nie wolno zakładać z góry — odczytaj go w każdym urządzeniu.
+Jeżeli model lub obraz źródłowy się nie zgadza, przerwij.
 
 ## 2. Przygotowanie obrazu w Magisk
 
@@ -54,16 +56,18 @@ fastboot getvar current-slot
 fastboot getvar product
 ```
 
-W przetestowanej procedurze aktywny był slot `a`, a używany był zgodny obraz
-`init_boot`:
+W procedurze testowej LineageOS fastboot potwierdził aktywny slot `b`, więc
+spatchowany obraz z tego samego wydania zapisano tylko do:
 
 ```bash
-fastboot flash init_boot_a magisk_patched-*.img
+fastboot flash init_boot_b magisk_patched-lineage.img
 fastboot reboot
 ```
 
-Nie używaj tego polecenia, jeśli `current-slot` wskazuje inny slot albo plik
-pochodzi z innej kompilacji. Po uruchomieniu sprawdź:
+Litera `b` jest wynikiem tego jednego testu, nie wartością uniwersalną. Użyj
+partycyjnej nazwy odpowiadającej aktualnemu `fastboot getvar current-slot`,
+tylko jeśli patched image pochodzi z dokładnego systemu na telefonie. Po
+uruchomieniu sprawdź:
 
 ```bash
 adb shell su -c id

@@ -8,6 +8,7 @@ Publiczny projekt pomocy dla użytkowników Motorola Moto G05.
 - ADB i Fastboot,
 - odblokowanie bootloadera,
 - root i Magisk,
+- przetestowana instalacja LineageOS 23.2 + MindTheGapps + Magisk na XT2523-3,
 - przywracanie telefonu po błędach,
 - FAQ oraz pomoc przez Issues i Discussions.
 
@@ -35,6 +36,7 @@ Pakiet został pobrany oficjalnym narzędziem Motoroli. Przed publikacją trzeba
 - [Ratowanie telefonu](docs/06-ratowanie-telefonu.md)
 - [Narzędzia i pliki](docs/07-narzedzia-i-pliki.md)
 - [Pierwsze wydanie narzędzi](docs/08-pierwsze-wydanie.md)
+- [LineageOS 23.2, Google Apps i root — od A do Z](docs/09-lineageos-23-2.md)
 - [FAQ](docs/faq.md)
 - [Pomoc i zgłaszanie problemów](SUPPORT.md)
 

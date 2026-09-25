@@ -1,0 +1,14 @@
+Sumy SHA-256 — Moto G05 XT2523-3 / lamu, przetestowane 2026-09-25.
+Format zgodny z `sha256sum -c` po pobraniu wymienionych plików.
+
+79283ef128ea0c4dc882f7f3eab0f2f08d95be6d12de753cc4df1a44f6b138e6  lineage-23.2-20260924-nightly-lamu-signed.zip
+75335dec734375a3dad37a3e515b2b98896d53d2a79f5fff5e087e1a315c3985  boot.img
+1e5aa3e311019259fcfd4669dcafceaa98052df195e0afa0610b2f16fd65925b  dtbo.img
+03fcc9e8ffe7175a0c4ad04732affac9d683eb224222bc3ac060be6d3c7d1c11  vendor_boot.img
+de0e31ecc47fe176b76b3605259005df41b9116be66cdc4ed2db95f7e9a12185  init_boot.img
+d60f550e4dc96606644fbbf886a9892d1391a607225e861ceaef27bd999bc6a3  MindTheGapps-16.0.0-arm64-20260915_222150.zip
+e0d32d2123532860f97123d927b1bb86c4e08e6fd8a48bfc6b5bee0afae9ebd5  Magisk-v30.7.apk
+
+Ostrzeżenie: przed użyciem porównaj sumy z oficjalnym manifestem lub
+oficjalnym wydaniem. Ten plik nie zawiera ROM-u, GApps, APK ani żadnego obrazu
+spatchowanego zależnego od urządzenia.
