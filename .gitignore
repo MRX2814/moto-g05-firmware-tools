@@ -1,0 +1,9 @@
+*.img
+*.zip
+*.7z
+*.rar
+*.exe
+*.apk
+*.log
+private/
+secrets/

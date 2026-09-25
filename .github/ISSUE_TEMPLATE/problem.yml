@@ -1,0 +1,33 @@
+name: Problem z Moto G05
+description: Zgłoś problem z firmware, Fastboot, ADB albo rootem
+title: "[Problem] "
+labels:
+  - pomoc
+body:
+  - type: markdown
+    attributes:
+      value: "Nie publikuj haseł, tokenów, IMEI, numeru seryjnego ani danych konta."
+  - type: input
+    id: model
+    attributes:
+      label: Model i wariant telefonu
+    validations:
+      required: true
+  - type: input
+    id: build
+    attributes:
+      label: Numer kompilacji / wersja Androida
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Opis problemu
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Wykonane kroki i komunikat błędu
+    validations:
+      required: true
