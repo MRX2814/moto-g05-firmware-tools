@@ -37,3 +37,5 @@ Pakiet został pobrany oficjalnym narzędziem Motoroli. Przed publikacją trzeba
 - [Pomoc i zgłaszanie problemów](SUPPORT.md)
 
 Instrukcje oznaczone jako `DRAFT` wymagają testu na właściwym wariancie Moto G05.
+
+Odblokowanie opisane w dokumentacji korzysta z nieoficjalnego narzędzia `tanuki`/`kaeru`/`Antumbra`; nie jest to oprogramowanie Motoroli.
