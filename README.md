@@ -33,6 +33,7 @@ Pakiet został pobrany oficjalnym narzędziem Motoroli. Przed publikacją trzeba
 - [Firmware i flashowanie](docs/04-firmware-fastboot.md)
 - [Root i Magisk](docs/05-root-magisk.md)
 - [Ratowanie telefonu](docs/06-ratowanie-telefonu.md)
+- [Narzędzia i pliki](docs/07-narzedzia-i-pliki.md)
 - [FAQ](docs/faq.md)
 - [Pomoc i zgłaszanie problemów](SUPPORT.md)
 
